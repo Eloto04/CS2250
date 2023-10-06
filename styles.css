@@ -1,0 +1,62 @@
+/* play around with grid - professor */
+
+.centered {
+    margin: auto;
+}
+
+button {
+    transition-duration: 0.3s;
+}
+
+#number {
+    background-color: white;
+}
+
+#number:hover {
+    background-color: #9c9a9a;
+}
+
+#number:active {
+    background-color: #737271;
+}
+
+#clear {
+    background-color: red;
+    color: white;
+}
+
+#clear:hover {
+    background-color: darkred;
+}
+
+#clear:active {
+    background-color: #690200;
+}
+
+#operator {
+    background-color: #4d4c4c;
+    color: white;
+}
+
+#operator:hover {
+    background-color: #333232;
+}
+
+#operator:active {
+    background-color: #212120   ;
+}
+
+#answerdisplay {
+    padding: 20px;
+    text-align: end;
+    border-style: groove;
+}
+
+th {
+    border-style: hidden;
+    margin: 0px;
+}
+
+button {
+    padding: 50px;
+}

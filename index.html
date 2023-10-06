@@ -1,0 +1,34 @@
+<html>
+<link rel="stylesheet" href="styles.css">
+
+<table id="cell" class="centered">
+    <tr>
+        <th colspan="4" id="answerdisplay"><script src="main.js"></script></th>
+    </tr>
+    <tr>
+        <th><button onmousedown="writeNumber(7)" id="number">7</button></th>
+        <th><button onmousedown="writeNumber(8)" id="number">8</button></th>
+        <th><button onmousedown="writeNumber(9)" id="number">9</button></th>
+        <th><button onmousedown="writeOperator('+')" id="operator">+</button></th>
+    </tr>
+    <tr>
+        <th><button onmousedown="writeNumber(4)" id="number">4</button></th>
+        <th><button onmousedown="writeNumber(5)" id="number">5</button></th>
+        <th><button onmousedown="writeNumber(6)" id="number">6</button></th>
+        <th><button onmousedown="writeOperator('-')" id="operator">-</button></th>
+    </tr>
+    <tr>
+        <th><button onmousedown="writeNumber(1)" id="number">1</button></th>
+        <th><button onmousedown="writeNumber(2)" id="number">2</button></th>
+        <th><button onmousedown="writeNumber(3)" id="number">3</button></th>
+        <th><button onmousedown="writeOperator('x')" id="operator">x</button></th>
+    </tr>
+    <tr>
+        <th><button onmousedown="clearText()" id="clear">C</button></th>
+        <th><button onmousedown="writeNumber(0)" id="number">0</button></th>
+        <th><button onmousedown="solve()" id="operator">=</button></th>
+        <th><button onmousedown="writeOperator('/')" id="operator">/</button></th>
+    </tr>
+</table>
+
+</html>
