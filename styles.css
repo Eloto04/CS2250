@@ -53,7 +53,7 @@ button {
 }
 
 th {
-    border-style: hidden;
+    border-style: solid;
     margin: 0px;
 }
 
